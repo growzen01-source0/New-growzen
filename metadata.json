@@ -1,0 +1,6 @@
+{
+  "name": "Growzen",
+  "description": "Growzen is a creative & digital growth studio that builds websites, designs brands and manages social media for small businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
