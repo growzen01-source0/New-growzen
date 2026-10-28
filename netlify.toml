@@ -3,23 +3,4 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "22"
-
-# Serve /public/assets/* automatically if the raw project folder is uploaded via Netlify Drop without building
-[[redirects]]
-  from = "/assets/*"
-  to = "/public/assets/:splat"
-  status = 200
-  force = false
-
-# Fallback to index.html for any unknown route
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
-
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+  NODE_VERSION = "20"
